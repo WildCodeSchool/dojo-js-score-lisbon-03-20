@@ -1,0 +1,22 @@
+{
+  "name": "dojo-js-score-lisbon-03-20",
+  "version": "1.0.0",
+  "description": "## Step 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connorltodd/dojo-js-score-lisbon-03-20.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connorltodd/dojo-js-score-lisbon-03-20/issues"
+  },
+  "homepage": "https://github.com/connorltodd/dojo-js-score-lisbon-03-20#readme",
+  "devDependencies": {
+    "jest": "^25.3.0"
+  }
+}
