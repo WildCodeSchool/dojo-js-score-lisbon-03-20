@@ -18,9 +18,8 @@ const scores = [
 ];
 
 function podium(scores) {
-    const nom = scores.sort((function (a, b) { return b.score - a.score }))
-    let selection = nom.slice(0, 3)
-    console.log(selection)
+    const sortedScores = scores.sort((function (a, b) { return b.score - a.score }))
+    let selection = sortedScores.slice(0, 3)
     return selection
 }
 podium(scores)

@@ -19,9 +19,9 @@ const scores = [
 
 function updateScore(scores, player, modifier) {
     // write your code here
-    const who = scores.findIndex(el => el.player === player)
-    const oldScore = scores[who].score
-    scores[who].score = oldScore + modifier
+    const selectedPlayer = scores.findIndex(el => el.player === player)
+    const oldScore = scores[selectedPlayer].score
+    scores[selectedPlayer].score = oldScore + modifier
     return scores
 }
 
