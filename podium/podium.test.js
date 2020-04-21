@@ -4,7 +4,7 @@ const scores = require("../scores");
 const expectedResult = [
     {
         "player": "Sanchez",
-        "score": 982
+        "score": 882
     },
     {
         "player": "Maggie",
